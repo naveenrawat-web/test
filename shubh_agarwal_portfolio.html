@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubh Agarwal - Personal Portfolio</title>
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            font-size: 16px;
+            color: #dbeafe;
+        }
+
+        /* Top navigation bar */
+        nav {
+            background-color: #172554;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Centering the main container and card layout - took help from AI for box-sizing and clean alignment */
+        .container {
+            max-width: 800px;
+            margin: 25px auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 6px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1e3a8a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+
+        /* Education table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e2e8f0;
+            color: #1e293b;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Using inline-block so skill badges wrap neatly on smaller screens - generated this layout rule with AI */
+        .skills-list span {
+            display: inline-block;
+            background-color: #e0e7ff;
+            color: #1e3a8a;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #e2e8f0;
+            color: #475569;
+            font-size: 13px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shubh Agarwal</h1>
+        <p>Age: 18 | BBA in Digital Business & Enterprenurship (IIM Bangalore)</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#sports">Sports Acheivements</a>
+        <a href="#skills">Skills & Intrests</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About section -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is <strong>Shubh Agarwal</strong>. I am an 18-year-old undergraduate student currently pursuing the 
+                <strong>BBA in Digital Business and Enterprenurship (DBE)</strong> from the <strong>Indian Institute of Management Bangalore (IIMB)</strong>.
+            </p>
+            <p>
+                Alongside my academic intrest in digital startups, business strategy, and management, I am a dedicated athlete who has represented my state and district in multiple sports.
+            </p>
+        </section>
+
+        <!-- Qualifications table -->
+        <section id="education" class="card">
+            <h2>Academic Qualifications</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution / School</th>
+                        <th>Score / Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BBA in Digital Business & Enterprenurship</td>
+                        <td>IIM Bangalore (IIMB)</td>
+                        <td>Currently Pursuing</td>
+                    </tr>
+                    <tr>
+                        <td>Class 12 (Senior Secondary)</td>
+                        <td>Green Valley Public School</td>
+                        <td>68.8%</td>
+                    </tr>
+                    <tr>
+                        <td>Class 10 (Secondary)</td>
+                        <td>DAV Public School</td>
+                        <td>94.0%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Sports list -->
+        <section id="sports" class="card">
+            <h2>Sports Acheivements</h2>
+            <ul>
+                <li><strong>Basketball:</strong> Represented at the <strong>State Level</strong>.</li>
+                <li><strong>Badminton:</strong> Represented at the <strong>District Level</strong>.</li>
+                <li><strong>Cricket:</strong> Represented at the <strong>District Level</strong>.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Skills & Areas of Intrest</h2>
+            <div class="skills-list">
+                <span>Digital Business</span>
+                <span>Enterprenurship</span>
+                <span>Team Leadership</span>
+                <span>Market Research</span>
+                <span>Communcation</span>
+                <span>Time Management</span>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Shubh Agarwal | College Portfolio Assignment</p>
+    </footer>
+
+</body>
+</html>
